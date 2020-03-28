@@ -25,7 +25,7 @@ def make_predictions(model):
         with open('./bpe/%s' % doc, 'r') as f:
             words = f.read().split()
         result = model.infer_vector(words)
-        with open('./docvec/%s' % doc, 'w') as f:
+        with open('./docvec/%s' % doc.split('/')[-1].replace('.bpe.txt', '.json'), 'w') as f:
             f.write(json.dumps(list(map(str, list(result)))))   
         sys.stdout.write('\rEmbedding text document %d...' % idx)
 
