@@ -9,4 +9,5 @@ python3 -m pip install -r requirements.txt
 ./bpe.sh
 ./preprocessing.py  # apply_bpe()
 ./doc2vec.py
+./kmeans.py ./docvec > clusters.csv
 ```
