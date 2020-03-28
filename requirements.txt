@@ -1,0 +1,5 @@
+gensim
+ijson
+six
+sklearn
+subword-nmt
