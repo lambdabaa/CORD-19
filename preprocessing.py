@@ -26,6 +26,20 @@ def extract_text():
         sys.stdout.write('\rWrote %d text documents!' % idx)
         print()
 
+def extract_titles():
+    docs = (os.path.join(dirname, filename)
+        for dirname, _, filenames in os.walk('./CORD-19-research-challenge')
+        for filename in filenames
+        if filename.endswith('.json'))
+    print('file,title')
+    for idx, doc in enumerate(docs):
+        with open(doc, 'r') as f:
+            items = ijson.kvitems(f, '')
+            sections = [v for k, v in items if k == 'metadata']
+            titles = (section['title'] for section in sections)
+            text = '\n'.join(titles)
+        print('%s,%s' % (doc.split('/')[-1], text))
+
 def apply_bpe():
     for idx, doc in enumerate(os.listdir('./docs')):
         dest = doc.split('/')[-1].replace('.txt', '.bpe.txt')
@@ -35,6 +49,7 @@ def apply_bpe():
 def main():
     mkdirp('./docs')
     extract_text()
+    #extract_titles()
     #apply_bpe()
 
 if __name__ == '__main__':

@@ -6,6 +6,7 @@ Download the CORD-19 dataset from [Kaggle](https://www.kaggle.com/allen-institut
 ```sh
 python3 -m pip install -r requirements.txt
 ./preprocessing.py  # extract_text()
+./preprocessing.py  # extract_titles()
 ./bpe.sh
 ./preprocessing.py  # apply_bpe()
 ./doc2vec.py
