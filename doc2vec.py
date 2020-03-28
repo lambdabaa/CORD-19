@@ -26,18 +26,18 @@ def make_predictions(model):
             words = f.read().split()
         result = model.infer_vector(words)
         with open('./docvec/%s' % doc, 'w') as f:
-            f.write(json.dumps(str(result)))    
+            f.write(json.dumps(list(map(str, list(result)))))   
         sys.stdout.write('\rEmbedding text document %d...' % idx)
 
 def main():
-    train, test = load_dataset()
-    model = gensim.models.doc2vec.Doc2Vec(vector_size=100, min_count=2, epochs=40)
-    print('Discovering corpus vocabulary...')
-    model.build_vocab(train)
-    print('Building doc2vec model...')
-    model.train(train, total_examples=model.corpus_count, epochs=model.epochs)
-    model.save('./doc2vec.model')
-    #model = gensim.models.doc2vec.Doc2Vec.load('./doc2vec.model')
+    #train, test = load_dataset()
+    #model = gensim.models.doc2vec.Doc2Vec(vector_size=100, min_count=2, epochs=40)
+    #print('Discovering corpus vocabulary...')
+    #model.build_vocab(train)
+    #print('Building doc2vec model...')
+    #model.train(train, total_examples=model.corpus_count, epochs=model.epochs)
+    #model.save('./doc2vec.model')
+    model = gensim.models.doc2vec.Doc2Vec.load('./doc2vec.model')
     make_predictions(model)
 
 if __name__ == '__main__':
