@@ -26,7 +26,7 @@ def write_titles_by_cluster():
                 f.write('file,title\n')
                 for doc in docs:
                     if len(doc[1]) > 0 and doc[2] == cluster:
-                        f.write('%s,%s\n' % (doc[0],doc[1]))
+                        f.write('%s,%s\n' % (doc[0],doc[1].replace('"', '')))
 
 def main():
     csv.field_size_limit(sys.maxsize)
