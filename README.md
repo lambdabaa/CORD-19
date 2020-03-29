@@ -4,41 +4,41 @@ Clusters
 ========
 
 ### Social Science
-[Pandemics](https://github.com/lambdabaa/CORD-19/blob/master/clusters/16.csv)
-[Public Policy](https://github.com/lambdabaa/CORD-19/blob/master/clusters/6.csv)
+- [Pandemics](https://github.com/lambdabaa/CORD-19/blob/master/clusters/16.csv)
+- [Public Policy](https://github.com/lambdabaa/CORD-19/blob/master/clusters/6.csv)
 
 ### Treatment
-[Case Studies I](https://github.com/lambdabaa/CORD-19/blob/master/clusters/17.csv)
-[Case Studies II](https://github.com/lambdabaa/CORD-19/blob/master/clusters/18.csv)
-[Drug Design](https://github.com/lambdabaa/CORD-19/blob/master/clusters/12.csv)
-[Immunology & Vaccination](https://github.com/lambdabaa/CORD-19/blob/master/clusters/14.csv)
-[Medical Care](https://github.com/lambdabaa/CORD-19/blob/master/clusters/13.csv)
+- [Case Studies I](https://github.com/lambdabaa/CORD-19/blob/master/clusters/17.csv)
+- [Case Studies II](https://github.com/lambdabaa/CORD-19/blob/master/clusters/18.csv)
+- [Drug Design](https://github.com/lambdabaa/CORD-19/blob/master/clusters/12.csv)
+- [Immunology & Vaccination](https://github.com/lambdabaa/CORD-19/blob/master/clusters/14.csv)
+- [Medical Care](https://github.com/lambdabaa/CORD-19/blob/master/clusters/13.csv)
 
 ### Epidemiology
-[Epidemiology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/4.csv)
-[Symptoms](https://github.com/lambdabaa/CORD-19/blob/master/clusters/5.csv)
-[Respiratory Illness](https://github.com/lambdabaa/CORD-19/blob/master/clusters/9.csv)
+- [Epidemiology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/4.csv)
+- [Symptoms](https://github.com/lambdabaa/CORD-19/blob/master/clusters/5.csv)
+- [Respiratory Illness](https://github.com/lambdabaa/CORD-19/blob/master/clusters/9.csv)
 
 ### Biology
 
-[Animal Studies](https://github.com/lambdabaa/CORD-19/blob/master/clusters/2.csv)
-[Biochemical Engineering](https://github.com/lambdabaa/CORD-19/blob/master/clusters/3.csv)
-[Cell Biology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/1.csv)
-[Genomics](https://github.com/lambdabaa/CORD-19/blob/master/clusters/7.csv)
-[Microbiology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/19.csv)
+- [Animal Studies](https://github.com/lambdabaa/CORD-19/blob/master/clusters/2.csv)
+- [Biochemical Engineering](https://github.com/lambdabaa/CORD-19/blob/master/clusters/3.csv)
+- [Cell Biology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/1.csv)
+- [Genomics](https://github.com/lambdabaa/CORD-19/blob/master/clusters/7.csv)
+- [Microbiology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/19.csv)
 
 ### Modeling
 
-[Mathematical Modeling](https://github.com/lambdabaa/CORD-19/blob/master/clusters/11.csv)
+- [Mathematical Modeling](https://github.com/lambdabaa/CORD-19/blob/master/clusters/11.csv)
 
 ### Transmission, Detection, & Surveillance
-[Transmission](https://github.com/lambdabaa/CORD-19/blob/master/clusters/0.csv)
-[Detection & Surveillance](https://github.com/lambdabaa/CORD-19/blob/master/clusters/8.csv)
+- [Transmission](https://github.com/lambdabaa/CORD-19/blob/master/clusters/0.csv)
+- [Detection & Surveillance](https://github.com/lambdabaa/CORD-19/blob/master/clusters/8.csv)
 
 ### Foreign Language
 
-[French](https://github.com/lambdabaa/CORD-19/blob/master/clusters/15.csv)
-[German](https://github.com/lambdabaa/CORD-19/blob/master/clusters/10.csv)
+- [French](https://github.com/lambdabaa/CORD-19/blob/master/clusters/15.csv)
+- [German](https://github.com/lambdabaa/CORD-19/blob/master/clusters/10.csv)
 
 
 Usage
