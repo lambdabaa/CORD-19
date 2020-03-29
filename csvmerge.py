@@ -23,7 +23,7 @@ def write_titles_by_cluster():
         clusters = {doc[2] for doc in docs if doc[2].isdigit()}
         for cluster in clusters:
             with open('./clusters/%s.csv' % cluster, 'w') as f:
-                f.write('file,title')
+                f.write('file,title\n')
                 for doc in docs:
                     if len(doc[1]) > 0 and doc[2] == cluster:
                         f.write('%s,%s\n' % (doc[0],doc[1]))
