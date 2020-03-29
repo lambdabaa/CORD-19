@@ -24,7 +24,6 @@ def extract_text():
         with open(dest, 'w') as f:
             f.write(text)
         sys.stdout.write('\rWrote %d text documents!' % idx)
-        print()
 
 def extract_titles():
     docs = (os.path.join(dirname, filename)
@@ -47,9 +46,9 @@ def apply_bpe():
         sys.stdout.write('\rRan BPE on %d text documents!' % (idx + 1))
 
 def main():
-    mkdirp('./docs')
-    extract_text()
-    #extract_titles()
+    #mkdirp('./docs')
+    #extract_text()
+    extract_titles()
     #apply_bpe()
 
 if __name__ == '__main__':

@@ -11,4 +11,6 @@ python3 -m pip install -r requirements.txt
 ./preprocessing.py  # apply_bpe()
 ./doc2vec.py
 ./kmeans.py ./docvec > clusters.csv
+./preprocessing.py > titles.csv  # extract_titles()
+./csvmerge.py > docs.csv
 ```
