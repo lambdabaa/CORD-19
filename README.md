@@ -16,8 +16,8 @@ Clusters
 
 ### Epidemiology
 - [Epidemiology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/4.csv)
-- [Symptoms](https://github.com/lambdabaa/CORD-19/blob/master/clusters/5.csv)
 - [Respiratory Illness](https://github.com/lambdabaa/CORD-19/blob/master/clusters/9.csv)
+- [Virology](https://github.com/lambdabaa/CORD-19/blob/master/clusters/5.csv)
 
 ### Biology
 
