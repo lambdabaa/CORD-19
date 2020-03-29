@@ -47,11 +47,10 @@ Usage
 ```sh
 python3 -m pip install -r requirements.txt
 ./preprocessing.py  # extract_text()
-./preprocessing.py  # extract_titles()
+./preprocessing.py > titles.csv  # extract_titles()
 ./bpe.sh
 ./preprocessing.py  # apply_bpe()
 ./doc2vec.py
 ./kmeans.py ./docvec > clusters.csv
-./preprocessing.py > titles.csv  # extract_titles()
 ./csvmerge.py > docs.csv
 ```
